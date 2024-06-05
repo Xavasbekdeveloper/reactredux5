@@ -1,0 +1,55 @@
+.details {
+    padding: 50px 0;
+
+    &__container {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
+    &__left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #7e7e7e;
+        border-radius: 12px;
+        padding: 20px;
+
+        img {
+            width: 100%;
+            height: 400px;
+            object-fit: contain;
+        }
+    }
+
+    &__right {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    h2 {
+        font-size: 30px;
+        font-weight: 700;
+        color: #7e7e7e;
+    }
+
+    p {
+        font-size: 22px;
+        font-weight: 500;
+        color: #7e7e7e;
+    }
+
+    button {
+        border: none;
+        background-color: transparent;
+        width: 40px;
+        margin-top: 30px;
+    }
+
+    svg {
+        width: 30px;
+        height: 30px;
+        color: #7e7e7e;
+    }
+}

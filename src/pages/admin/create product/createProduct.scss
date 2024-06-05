@@ -1,0 +1,32 @@
+.create {
+    padding: 50px 20px;
+
+    h2 {
+        font-size: 25px;
+        font-weight: 700;
+        color: #7e7e7e;
+        margin-bottom: 25px;
+    }
+
+    &__form {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    input, button {
+        width: 40%;
+        outline: none;
+        padding: 8px;
+        border: 1px solid #7e7e7ea6;
+        color: gray;
+        border-radius: 6px;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    button {
+        background-color: #7e7e7e;
+        color: #fff;
+    }
+}
